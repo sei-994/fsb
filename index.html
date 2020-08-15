@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todolist</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <!-- <style type="text/css">
+      .done {
+        text-decoration: line-through;
+      }
+    </style> -->
+  </head>
+  <body>
+    <!-- ① -->
+    <div id="myDIV" class="header">
+      <h2>To Do List</h2>
+      <input type="text" id="myInput" placeholder="Title..." />
+      <span onclick="newElement()" class="addBtn">入力</span>
+    </div>
+
+    <ul id="myUL">
+      <!-- <li>Hit the gym</li>
+      <li class="checked">Pay bills</li>
+      <li>Meet George</li>
+      <li>Buy eggs</li>
+      <li>Read a book</li>
+      <li>Organize office</li> -->
+    </ul>
+
+    <!-- ② -->
+    <!-- <ul>
+      <li>Todo 1<button>完了</button></li>
+      <li>Todo 2<button>完了</button></li>
+      <li>Todo 3<button>完了</button></li>
+      <li>Todo 4<button>完了</button></li>
+    </ul> -->
+    <div class="box">
+      <ul></ul>
+      <input type="text" id="new-todo" />
+      <!-- <button id="add-button">add</button> -->
+      <script src="./main.js"></script>
+    </div>
+  </body>
+</html>
